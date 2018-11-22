@@ -10,7 +10,7 @@ $(document).ready(function () {
     function displayGif() {
 
         var animals = $(this).attr("data-name");
-        var queryURL = "http:api.giphy.com/v1/gifs/search?q=" + animals + "&api_key=RLnVQdHTAJwB35VzVlH6u7yKMYJOzjrk&limit=10";
+        var queryURL = "https:api.giphy.com/v1/gifs/search?q=" + animals + "&api_key=RLnVQdHTAJwB35VzVlH6u7yKMYJOzjrk&limit=10";
 
         $.ajax({
             url: queryURL,
